@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Yohanne Rei's Baptismal Invitation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --secondary-color: #f0f4f8;
+            --accent-color: #ffb7b2;
+            --text-color: #2c3e50;
+            --white: #ffffff;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .invitation-container {
+            width: 100%;
+            max-width: 480px;
+            background: var(--white);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #e3eeff 0%, #f3e7e8 100%);
+        }
+        .theme-badge {
+            display: inline-block;
+            background: var(--white);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            font-size: 1rem;
+            color: #666;
+            letter-spacing: 1px;
+        }
+        .content {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .details-box {
+            background: #fafbfc;
+            border: 1px solid #eaeaea;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .details-box h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        .details-box p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-container">
+        <div class="header">
+            <span class="theme-badge">✨ MAGIC CAROUSEL THEME ✨</span>
+            <h1>Yohanne Rei</h1>
+            <p class="subtitle">Celebration of Holy Baptism</p>
+        </div>
+
+        <div class="content">
+            <p>You are warmly invited to celebrate with us on the christening of our beloved child.</p>
+
+            <div class="details-box">
+                <h3>⛪ Church Ceremony</h3>
+                <p><strong>St. John Neumann Parish</strong></p>
+                <p>Sicayab, Dipolog City</p>
+                <p>📅 Date: Soon</p>
+            </div>
+
+            <div class="details-box" style="margin-top: 15px;">
+                <h3>🎉 Reception</h3>
+                <p>To follow immediately after the ceremony.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
